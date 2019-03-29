@@ -6,16 +6,16 @@ public class ShapeTest {
 
 	@Test
 	public void testShapes() {
-		Assert.assertEquals("Shape values incorrect", Shape.BOOT, Shape.valueOf("KITCHEN"));
-		Assert.assertEquals("Shape values incorrect", Shape.THIMBLE, Shape.valueOf("KITCHEN"));
-		Assert.assertEquals("Shape values incorrect", Shape.RACECAR, Shape.valueOf("KITCHEN"));
+		Assert.assertEquals("Shape values incorrect", Shape.BOOT, Shape.valueOf("BOOT"));
+		Assert.assertEquals("Shape values incorrect", Shape.THIMBLE, Shape.valueOf("THIMBLE"));
+		Assert.assertEquals("Shape values incorrect", Shape.RACECAR, Shape.valueOf("RACECAR"));
 	}
 	
 	@Test
 	public void toStringTest() {
-		Assert.assertEquals("Shape toString value incorrect", "racecar", Shape.RACECAR.toString());
-		Assert.assertEquals("Shape toString value incorrect", "thimble", Shape.THIMBLE.toString());
-		Assert.assertEquals("Shape toString value incorrect", "boot", Shape.BOOT.toString());
+		Assert.assertEquals("Shape toString value incorrect", "RACECAR", Shape.RACECAR.toString());
+		Assert.assertEquals("Shape toString value incorrect", "THIMBLE", Shape.THIMBLE.toString());
+		Assert.assertEquals("Shape toString value incorrect", "BOOT", Shape.BOOT.toString());
 	}
 
 }

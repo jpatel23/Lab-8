@@ -11,7 +11,7 @@ public class GamePieceTest {
 		Assert.assertEquals("GamePiece values incorrect", GamePiece.RED_THIMBLE, GamePiece.valueOf("RED_THIMBLE"));
 		Assert.assertEquals("GamePiece values incorrect", GamePiece.BLUE_BOOT, GamePiece.valueOf("BLUE_BOOT"));
 		Assert.assertEquals("GamePiece values incorrect", GamePiece.YELLOW_BOOT, GamePiece.valueOf("YELLOW_BOOT"));
-		Assert.assertEquals("GamePiece values incorrect", GamePiece.GREEN_BOOT, GamePiece.valueOf("GREEN_RACER"));
+		Assert.assertEquals("GamePiece values incorrect", GamePiece.GREEN_BOOT, GamePiece.valueOf("GREEN_BOOT"));
 	}
 	
 	@Test
